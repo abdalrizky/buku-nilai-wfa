@@ -114,6 +114,8 @@ Partial Class MainMenuForm
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(578, 700)
         Controls.Add(TableLayoutPanel1)
+        FormBorderStyle = FormBorderStyle.FixedSingle
+        MaximizeBox = False
         Name = "MainMenuForm"
         Text = "Menu Utama"
         TableLayoutPanel1.ResumeLayout(False)
